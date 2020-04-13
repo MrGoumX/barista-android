@@ -2,7 +2,6 @@ package gr.aueb.android.barista.core.model;
 
 import com.fasterxml.jackson.annotation.JsonTypeName;
 
-@JsonTypeName("Monkey")
 public class MonkeyDTO extends CommandDTO {
 
     private int seed, count, throttle;
